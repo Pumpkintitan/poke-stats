@@ -8,7 +8,7 @@ function App() {
   function getPoke() {
 
     let num = Math.ceil(Math.random() * 905);
-    fetch(`http://pokeapi.co/api/v2/pokemon/${num}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${num}`)
       .then(res => res.json())
       .then(
         (result) => {
