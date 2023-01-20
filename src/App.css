@@ -19,6 +19,11 @@ img {
   text-align: left;
 }
 
+.bar {
+  height:10px;
+  transition: 0.5s;
+}
+
 p {
   margin:0
 }
